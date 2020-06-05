@@ -46,6 +46,11 @@
     <module>examples</module>
   </modules>
 
+  <properties>
+    <!-- This is to disable the maven javadoc plugin from preventing the release. -->
+    <doclint>none</doclint>
+  </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -63,6 +68,11 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.1.1</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
