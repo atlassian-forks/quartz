@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.quartz-scheduler</groupId>
   <artifactId>quartz-parent</artifactId>
-  <version>1.8.7-atlassian-3-SNAPSHOT</version>
+  <version>1.8.7-atlassian-3</version>
   <packaging>pom</packaging>
   <name>Quartz Parent POM</name>
 
@@ -20,7 +20,7 @@
     <connection>scm:git:git@github.com:atlassian-forks/quartz.git</connection>
     <developerConnection>scm:git:git@github.com:atlassian-forks/quartz.git</developerConnection>
     <url>https://github.com/atlassian-forks/quartz</url>
-    <tag>HEAD</tag>
+    <tag>quartz-parent-1.8.7-atlassian-3</tag>
   </scm>
 
   <licenses>
