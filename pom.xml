@@ -155,13 +155,13 @@
 
   <profiles>
 
-    <profile>
-      <!-- Profile to include the quartz-oracle module in the build. -->
-      <id>oracle</id>
-      <modules>
-        <module>quartz-oracle</module>
-      </modules>
-    </profile>
+<!--    <profile>-->
+<!--      &lt;!&ndash; Profile to include the quartz-oracle module in the build. &ndash;&gt;-->
+<!--      <id>oracle</id>-->
+<!--      <modules>-->
+<!--        <module>quartz-oracle</module>-->
+<!--      </modules>-->
+<!--    </profile>-->
     <profile>
       <!-- Profile to include the quartz-weblogic and quartz-oracle modules in the build -->
       <id>weblogic</id>
